@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html body {
+    font-family: Oswald, sans-serif;
+    background-color: rgba(220, 220, 220, 1);
+}
+.purple-col {
+    background-color: blueviolet;
+}
+
+.red-col {
+    background-color: red;
+}
+
+.green-col {
+    background-color: green;
+}
+
+.nav-bar-color {
+    background-color: rgb(228, 108, 108, 1);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.nav-highlight, .navbar-brand {
+    color: #fff !important;
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    filter: invert(100%)
+}
+
+h1 {
+    font-size: 1.802em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.602em;
+    font-weight: 700;
+}
+
+.footer-custom {
+    background-color: gray;
+    text-align: center;
+}
+
+.r1c1 {
+    color:#fff;
+    background-color: aqua;
+}
+
+.r1c2 {
+    color:#fff;
+    background-color: aquamarine;
+}
+
+.r1c3 {
+    color:#fff;
+    background-color: blanchedalmond;
+}
+
+.r2c1 {
+    color:#fff;
+    background-color:chocolate;
+}
+
+.r2c2 {
+    color:#fff;
+    background-color:blue;
+}
+
+.r2c3 {
+    color:#fff;
+    background-color:burlywood;
+}
+
+.r3c1 {
+    color:#fff;
+    background-color:cadetblue;
+}
+
+.r3c2 {
+    color:#fff;
+    background-color:chartreuse;
+}
+
+.r3c3 {
+    color:#fff;
+    background-color:crimson;
+}
