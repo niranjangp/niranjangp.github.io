@@ -48,6 +48,15 @@ h2 {
     font-weight: 700;
 }
 
+h3 {
+    font-size: 1.424em;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.266em;
+}
+
 .footer-custom {
     background-color: gray;
     text-align: center;
@@ -96,4 +105,26 @@ h2 {
 .r3c3 {
     color:#fff;
     background-color:crimson;
+}
+
+.btn-footer .btn-primary {
+    background-color: deeppink !important; 
+    border-color: deeppink !important;
+}
+
+.btn-footer .btn-primary:hover {
+    background-color: cornflowerblue !important;
+}
+
+.btn-footer {
+    text-align: center;
+}
+
+.carousel-pad {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: cornflowerblue;
 }
