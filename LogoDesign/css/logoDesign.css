@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html body {
+    font-family: Montserrat, sans-serif;
+    background-color: ivory;
+}
+.nav-bar-color {
+    background-color: antiquewhite;
+}
+
+/*.red-col {
+    background-color: red;
+}
+
+.green-col {
+    background-color: green;
+}*/
+
+/*.nav-bar-color {
+    background-color: rgb(228, 108, 108, 1);
+}*/
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: grey !important;
+}
+
+.nav-highlight, .navbar-brand {
+    color: #000 !important;
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    filter: invert(100%)
+}
+
+h1 {
+    /*font-size: 1.802em;*/
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.602em;
+    /*font-weight: 700;*/
+}
+
+h3 {
+    font-size: 1.424em;
+    /*font-weight: 700;*/
+}
+
+h4 {
+    font-size: 1.266em;
+}
+
+.footer-custom {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+/*.text-center p {
+    margin-bottom:0;
+}
+
+pre {
+    margin-bottom: 0;
+}
+
+.preDiv {
+    margin: auto 0;
+
+}
+
+.hOne h1{
+    font-family: 'Calluna', serif;
+    font-size: 71.55px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hOne p, .hTwo p, .hThree p, 
+.hFour p, .bTxt p, .empTxt p, .inLink p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.hTwo h2 {
+    font-family: 'Calluna', serif;
+    font-size: 53.67px;
+    font-weight: 325;
+    font-style: normal;
+}
+
+.hThree h3 {
+    font-family: 'Calluna', serif;
+    font-size: 40.27px;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.hFour h4 {
+    font-family: 'Calluna', serif;
+    font-size: 30.21px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.bTxt div {
+    font-family: 'Calluna', serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.empTxt div {
+    font-family: 'Calluna', serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.empTxt em {
+    font-weight: 700;
+}
+
+.inLink div {
+    font-family: 'Calluna', serif;
+    font-size: 17px;
+    font-weight: 550;
+    font-style: normal;
+    color: initial;
+    text-decoration: underline;
+    text-decoration-thickness: 0.15rem;
+    text-decoration-color: #36ABFD;
+}
+
+.inLink .linkHeader {
+    margin-bottom: 20px;
+}
+
+.inLink a:hover {
+    color: #2C8BD0;
+    text-decoration: none;
+}*/
+
+/* logo designs start */
+.bodyCard {
+    background-color: #f0f0f0;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 2rem #bebebe, -1rem -1rem 2rem #ffffff;
+    display:flex;
+    height: 100%;
+    margin: 2.5rem;
+    padding: 1.5rem;
+}
+
+.logoCard {
+    Width: 33%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem #bebebe;
+    padding: 1rem;
+    margin:1rem;
+    background-color: #ffffff;
+}
+
+h4 {
+    padding-top: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row1, .row2, .row3, .displayFlex, .favIconCard {
+    display: flex;
+}
+
+.outline {
+    margin: 0.75rem 0;
+}
+
+.width30 {
+    width: 30%;
+    margin: auto 1rem;
+}
+
+.width70 {
+    width: 70%;
+    margin: 1rem;
+}
+
+.favicon {
+    width: 4rem;
+}
+
+.white, .black, .mustard, .blue {
+    width: 50%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white {
+    background-color: #ffffff;
+    border-top-left-radius: 0.5rem;
+}
+.black {
+    background-color: #000000;
+    color:#ffffff;
+    border-top-right-radius: 0.5rem;
+}
+.mustard {
+    background-color: #faa31b;
+    border-bottom-left-radius: 0.5rem;
+}
+.blue {
+    background-color: #003049;
+    color: #ffffff;
+    border-bottom-right-radius: 0.5rem;
+}
+
+
+.favText {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.csch {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.row3 {
+    margin-top: 4rem;
+}
